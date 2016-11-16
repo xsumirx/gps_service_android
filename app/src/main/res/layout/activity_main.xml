@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="location.ei.com.location.MainActivity">
+
+
+    <TextView
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:id="@+id/status"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="btnRefreshClick"
+            android:layout_gravity="center"
+            android:id="@+id/btnRefresh"
+            android:layout_marginRight="20dp"
+            android:text="Refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:onClick="btnMapClick"
+            android:layout_gravity="center"
+            android:id="@+id/btnMap"
+            android:text="Plot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
